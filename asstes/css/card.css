@@ -15,6 +15,9 @@ body{
     /* margin: 10px 5px; */
     max-width: 45vw;
     min-width: 392px;
+    
+    border-radius: 17px;
+
     overflow: hidden;
     position: relative;
     text-align: right;
@@ -37,7 +40,12 @@ body{
   min-width: 392px;
   vertical-align: top;
 }
-
+.snip1563 h3{
+  font-size: 4vw!important;
+}
+.snip1563 p {
+  font-size: 1.3vw!important;
+}
 .snip1563:before,
 .snip1563:after {
   position: absolute;
@@ -46,7 +54,7 @@ body{
   left: 0;
   right: 0;
   content: "";
-  background-color: #b81212;
+  background-color: #0784b5;
   opacity: 0.5;
   -webkit-transition: all 0.45s ease;
   transition: all 0.45s ease;
@@ -70,7 +78,10 @@ body{
   right: 0px;
   z-index: 1;
   bottom: 0;
-  padding: 20px 20px 20px 40%;
+  padding: 20px 20px 20px 20%;
+  display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .snip1563 figcaption:before,
@@ -80,7 +91,7 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #b81212;
+  background-color: #192428;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   content: "";
   opacity: 0.5;
