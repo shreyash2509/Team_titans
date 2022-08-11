@@ -34,6 +34,10 @@
     padding: 0 3rem;
 }
 
+.text-slider-items {
+  display: none;
+}
+
 .cta-section{
     margin: 8rem 0;
 }
