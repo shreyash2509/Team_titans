@@ -34,6 +34,12 @@
     padding: 0 3rem;
 }
 
+
+.text-slider-items {
+  display: none;
+}
+
+
 .cta-section{
     margin: 8rem 0;
 }
@@ -53,10 +59,19 @@
 .cta-subheading{
     font-size: 20px;
 }
+
+.cta-image img{
+  width: 100%;
+}
+.about-img img{
+  width: 100%;
+}
+
 .about-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     /* flex-wrap: wrap; */
 }
 .about-desc{
