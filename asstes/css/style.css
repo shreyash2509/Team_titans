@@ -119,3 +119,15 @@
 .form-group button{
     background: #0784b5;
 }
+
+.row>* {
+  margin-bottom: var(--bs-gutter-x);
+}
+
+.fl{
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-between;
+
+}
